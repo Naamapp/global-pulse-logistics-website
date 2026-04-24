@@ -2270,3 +2270,43 @@ a {
     padding: 0 1rem;
   }
 }
+
+/* PARTNERS SLIDER */
+.partners-slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.partners-track {
+    display: flex;
+    gap: 4rem;
+    animation: scroll 25s linear infinite;
+    width: max-content;
+}
+
+.partners-track img {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.partners-track img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+

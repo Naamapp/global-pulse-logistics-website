@@ -2291,7 +2291,8 @@ a {
     width: auto;
     object-fit: contain;
     filter: grayscale(100%);
-    opacity: 0.8;
+    opacity: 1;
+    filter: none;
     transition: 0.3s ease;
 }
 

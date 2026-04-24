@@ -2302,6 +2302,15 @@ a {
     transform: scale(1.05);
 }
 
+.partners-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+}
+
 @keyframes scroll {
     from {
         transform: translateX(0);
